@@ -1,2 +1,72 @@
-node_modules
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Logs
+logs/
+*.log
+
+# Dependency directories
+/.pnp
+.pnp.js
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Output of 'npm pack'
+*.tgz
+
+# dotenv environment variables file
 .env
+
+# MacOS
+.DS_Store
+
+# Linux
+*.swp
+
+# Windows
+Thumbs.db
+*.lnk
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw*
+
+# React
+build/
+coverage/
+
+# Django
+*.py[cod]
+__pycache__/
+db.sqlite3
+media/
+
+# Python
+venv/
+__pycache__/
+*.py[cod]
+.Python
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Static and media files
+staticfiles/
+mediafiles/
+
+# Build files
+dist/
